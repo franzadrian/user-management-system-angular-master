@@ -29,7 +29,7 @@ A full-stack application for managing user accounts with advanced features and s
 
 ## 🌐 Live Demos
 - **Frontend**: https://user-management-system-angular-master-delta.vercel.app/account/login?returnUrl=%2F
-- **Backend API**: [https://user-management-system-angular-master-production.up.railway.app](https://user-management-system-angular-master-production.up.railway.app)
+- **Backend API**: postgres-production-a08f8.up.railway.app
 
 ## ✨ Features
 
