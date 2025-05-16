@@ -245,7 +245,7 @@ To access the production database:
 ```
 
 ## 🌐 Live Demos
-- **Frontend**: [https://user-management-system-angular-master.vercel.app](https://user-management-system-angular-master.vercel.app)
+- **Frontend**: https://user-management-system-angular-master-delta.vercel.app/account/login?returnUrl=%2F
 - **Backend API**: [https://user-management-system-angular-master-production.up.railway.app](https://user-management-system-angular-master-production.up.railway.app)
 - **API Docs**: [https://user-management-system-angular-master-production.up.railway.app/api-docs](https://user-management-system-angular-master-production.up.railway.app/api-docs)
 
