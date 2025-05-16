@@ -17,7 +17,7 @@ app.use('/accounts', require('./accounts/accounts.controller'));
 app.use('/employees', require('./employees/employees.controller'));
 app.use('/departments', require('./departments/departments.controller'));
 app.use('/workflows', require('./workflows/workflows.controller'));
-app.use('/requests', require('./requests/requests.controller'));
+app.use('/requests', require('./requests/request.controller'));
 app.use('/api-docs', require('./_helpers/swagger'));
 
 // error handler

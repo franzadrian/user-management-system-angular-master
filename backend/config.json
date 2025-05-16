@@ -1,9 +1,9 @@
 {
     "database": {
-        "url": "postgresql://postgres:sUxsItmJrZPtBPcYNmSdiFRqTooYZiox@gondola.proxy.rlwy.net:59248/railway",
+        "url": "postgresql://postgres:JoKHPbefFwzFzTuAiuNNyZHTAkrQjLmT@switchyard.proxy.rlwy.net:58065/railway",
         "ssl": true
     },
-    "secret": "secretmakabawpalangka",
+    "secret": "secretgani",
     "smtpOptions": {
         "host": "smtp.gmail.com",
         "port": 587,
