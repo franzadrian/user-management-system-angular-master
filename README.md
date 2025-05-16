@@ -28,7 +28,7 @@ A full-stack application for managing user accounts with advanced features and s
 - [Team](#-team)
 
 ## 🌐 Live Demos
-- **Frontend**: [https://user-management-system-angular-master.vercel.app](https://user-management-system-angular-master.vercel.app)
+- **Frontend**: [[https://user-management-system-angular-master.vercel.app](https://user-management-system-angular-master-delta.vercel.app/account/login?returnUrl=%2F)]
 - **Backend API**: [https://user-management-system-angular-master-production.up.railway.app](https://user-management-system-angular-master-production.up.railway.app)
 
 ## ✨ Features
@@ -262,13 +262,13 @@ To access the production database:
 2. Select the frontend directory
 3. Configure build settings:
    - Build Command: `npm run build`
-   - Output Directory: `dist/frontend`
+   - Output Directory: `dist/user-management-system`
 4. Deploy
 
 ## 🔑 First Login
 - The system automatically creates an admin account on first launch
 - Subsequent accounts require email verification
-- Email notifications are sent via Gmail SMTP (sender: huntersungjinwoo321@gmail.com)
+- Email notifications are sent via Gmail SMTP (sender: achives1@gmail.com)
 
 ## 🤝 Contributing
 1. Fork the repository
@@ -278,9 +278,8 @@ To access the production database:
 5. Open a Pull Request
 
 ## 👥 Team
-- Andrew Mathew Giganto
-- Nicole Ablegas
-- Joseph Earl Estimo
+- Poland Diosana
+- Franz Adrian Nacar
 
 ---
 
