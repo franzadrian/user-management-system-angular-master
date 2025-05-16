@@ -90,7 +90,7 @@ A full-stack application for managing user accounts with advanced features and s
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/AndrewGiganto/User-Management-System-Angular-master.git
+   git clone [https://github.com/AndrewGiganto/User-Management-System-Angular-master.git](https://github.com/franzadrian/user-management-system-angular-master.git)
    cd User-Management-System-Angular-master
    ```
 
