@@ -19,7 +19,13 @@ export class JwtInterceptor implements HttpInterceptor {
         
         if (isLoggedIn && isApiUrl) {
             request = request.clone({
-                setHeaders: { Authorization: `Bearer ${account.jwtToken}` }
+                setHeaders: { Authorization: `Bearer ${account.jwtToken}` },
+                withCredentials: true  // Include credentials in cross-domain requests
+            });
+        } else if (isApiUrl) {
+            // Always include credentials for API requests, even when not logged in
+            request = request.clone({
+                withCredentials: true
             });
         }
         
