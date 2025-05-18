@@ -23,6 +23,7 @@ A full-stack application for managing user accounts with advanced features and s
 - [Database Access](#-database-access)
 - [API Documentation](#-api-documentation)
 - [Deployment](#-deployment)
+- [Security Notes](#-security-notes)
 - [First Login](#-first-login)
 - [Contributing](#-contributing)
 - [Team](#-team)
@@ -58,7 +59,7 @@ A full-stack application for managing user accounts with advanced features and s
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **Framework**: Angular 17
+- **Framework**: Angular 17.3.12
 - **UI Library**: Bootstrap 5
 - **Icons**: Font Awesome 6
 - **HTTP Client**: Angular HttpClient
@@ -67,15 +68,22 @@ A full-stack application for managing user accounts with advanced features and s
 - **Hosting**: Vercel
 
 ### Backend
-- **Runtime**: Node.js
+- **Runtime**: Node.js 22+
 - **Framework**: Express.js
 - **Database**: PostgreSQL
 - **ORM**: Sequelize
-- **Authentication**: JWT
+- **Authentication**: JWT with express-jwt v7+
 - **Email**: Nodemailer (Gmail SMTP)
 - **Validation**: Joi
 - **Documentation**: Swagger UI
 - **Hosting**: Railway
+
+## 🔒 Security Notes
+- All production dependencies have been verified to be free of vulnerabilities (`npm audit --production`)
+- Backend uses updated authentication libraries (express-jwt v7+)
+- JWT implementation follows best security practices with proper algorithms
+- Regular security audits are performed on dependencies
+- Note for developers: Some development dependencies may show audit warnings, but these do not affect production builds
 
 ## 🚀 Getting Started
 
