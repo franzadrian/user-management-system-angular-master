@@ -214,7 +214,3 @@ To access the production database:
   ]
 }
 ```
-
-<div align="center">
-  © 2023 User Management System | MIT License
-</div>
