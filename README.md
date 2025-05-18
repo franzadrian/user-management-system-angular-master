@@ -112,7 +112,7 @@ SMTP_PASS=your_app_password
 To access the production database:
 1. Contact repository owner (franzadrian) for access permissions
 2. Login to [Railway](https://railway.app) using GitHub account
-3. Navigate to "delightful trust" project
+3. Navigate to "aware-appreciation" project
 4. Select PostgreSQL database
 5. Go to "Data" tab to view tables
 
