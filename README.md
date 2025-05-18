@@ -30,13 +30,6 @@
 - **Documentation**: Swagger UI
 - **Hosting**: Railway
 
-## Security Notes
-- All production dependencies have been verified to be free of vulnerabilities (`npm audit --production`)
-- Backend uses updated authentication libraries (express-jwt v7+)
-- JWT implementation follows best security practices with proper algorithms
-- Regular security audits are performed on dependencies
-- Note for developers: Some development dependencies may show audit warnings, but these do not affect production builds
-
 ### Prerequisites
 - Node.js (v18 or higher)
 - PostgreSQL
