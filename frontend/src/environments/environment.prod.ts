@@ -1,4 +1,4 @@
 export const environment = {
     production: true,
-    apiUrl: 'https://user-management-system-angular-master-production-08a9.up.railway.app'
+    apiUrl: 'https://user-management-system-angular-master-jl8j.onrender.com'
 }

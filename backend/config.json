@@ -1,7 +1,10 @@
 {
     "database": {
-        "url": "postgresql://postgres:JoKHPbefFwzFzTuAiuNNyZHTAkrQjLmT@switchyard.proxy.rlwy.net:58065/railway",
-        "ssl": true
+        "host": "153.92.15.31",
+        "port": 3306,
+        "user": "u875409848_diosana",
+        "password": "9T2Z5$3UKkgSYzE",
+        "database": "u875409848_diosana"
     },
     "secret": "secretgani",
     "smtpOptions": {
