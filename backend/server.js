@@ -10,20 +10,14 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cookieParser());
-
-app.use(cors({
-  origin: ['https://user-management-system-angular-master-delta.vercel.app', 'http://localhost:4200'],
-  credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept', 'Authorization']
-}));
+app.use(cors({ origin: (origin, callback) => callback(null, true), credentials: true }));
 
 // routes
 app.use('/accounts', require('./accounts/accounts.controller'));
 app.use('/employees', require('./employees/employees.controller'));
 app.use('/departments', require('./departments/departments.controller'));
 app.use('/workflows', require('./workflows/workflows.controller'));
-app.use('/requests', require('./requests/request.controller'));
+app.use('/requests', require('./requests/requests.controller'));
 app.use('/api-docs', require('./_helpers/swagger'));
 
 // error handler
