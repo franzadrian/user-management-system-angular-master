@@ -10,7 +10,13 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cookieParser());
-app.use(cors({ origin: (origin, callback) => callback(null, true), credentials: true }));
+
+app.use(cors({
+  origin: ['https://user-management-system-angular-master-delta.vercel.app', 'http://localhost:4200'],
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept', 'Authorization']
+}));
 
 // routes
 app.use('/accounts', require('./accounts/accounts.controller'));
