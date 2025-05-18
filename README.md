@@ -1,35 +1,14 @@
 #  User Management System
 
+## 👥 Team
+- Poland Diosana
+- Franz Adrian Nacar
+---
 
-## 🌐 Live Demos
+## Live Demos
 - **Frontend**: [https://user-management-system-angular-master-delta.vercel.app/account/login?returnUrl=%2F](https://user-management-system-angular-master-delta.vercel.app/)
 - **Backend API**: [https://postgres-production-a08f8.up.railway.app/](https://user-management-system-angular-master-production-08a9.up.railway.app)
-
-## ✨ Features
-
-### 🔐 Authentication & Authorization
-- User Registration with Email Verification
-- JWT Authentication with Refresh Tokens
-- Role-Based Access Control (Admin/User)
-- Password Reset via Email
-- Account Status Management (Active/Inactive)
-- First-time admin account auto-creation (no verification needed)
-
-### 📱 User Interface
-- Modern and Responsive Design
-- User-friendly Dashboard
-- Account Management Interface
-- Profile Settings
-- Admin Control Panel
-
-### 🛡️ Security
-- Password Encryption with bcryptjs
-- Token-based Authentication
-- Secure Email Verification via SMTP
-- Session Management
-- Input Validation with Joi
-
-## 🛠️ Tech Stack
+- **API Docs**: [https://user-management-system-angular-master-production.up.railway.app/api-docs](https://user-management-system-angular-master-production.up.railway.app/api-docs)
 
 ### Frontend
 - **Framework**: Angular 17.3.12
@@ -51,14 +30,12 @@
 - **Documentation**: Swagger UI
 - **Hosting**: Railway
 
-## 🔒 Security Notes
+## Security Notes
 - All production dependencies have been verified to be free of vulnerabilities (`npm audit --production`)
 - Backend uses updated authentication libraries (express-jwt v7+)
 - JWT implementation follows best security practices with proper algorithms
 - Regular security audits are performed on dependencies
 - Note for developers: Some development dependencies may show audit warnings, but these do not affect production builds
-
-## 🚀 Getting Started
 
 ### Prerequisites
 - Node.js (v18 or higher)
@@ -86,6 +63,26 @@
    cd frontend
    npm install
    ```
+## 🌐 Deployment
+
+### Backend Deployment (Railway)
+1. Connect your GitHub repository to Railway
+2. Select the backend directory
+3. Configure environment variables from `.env`
+4. Deploy
+
+### Frontend Deployment (Vercel)
+1. Connect your GitHub repository to Vercel
+2. Select the frontend directory
+3. Configure build settings:
+   - Build Command: `npm run build`
+   - Output Directory: `dist/user-management-system`
+4. Deploy
+
+## 🔑 First Login
+- The system automatically creates an admin account on first launch
+- Subsequent accounts require email verification
+- Email notifications are sent via Gmail SMTP (sender: achives1@gmail.com)
 
 ## ⚙️ Configuration
 
@@ -111,7 +108,7 @@ SMTP_PASS=your_app_password
    - Copy the generated password
 4. Update the `SMTP_PASS` in your `.env` file
 
-## 🗃️ Database Access
+## Database Access
 To access the production database:
 1. Contact repository owner (franzadrian) for access permissions
 2. Login to [Railway](https://railway.app) using GitHub account
@@ -119,7 +116,7 @@ To access the production database:
 4. Select PostgreSQL database
 5. Go to "Data" tab to view tables
 
-## 📚 API Documentation
+## API Documentation
 
 ### Accounts
 
@@ -224,45 +221,6 @@ To access the production database:
   ]
 }
 ```
-
-## 🌐 Live Demos
-- **Frontend**: https://user-management-system-angular-master-delta.vercel.app/account/login?returnUrl=%2F
-- **Backend API**: [https://user-management-system-angular-master-production.up.railway.app](https://user-management-system-angular-master-production.up.railway.app)
-- **API Docs**: [https://user-management-system-angular-master-production.up.railway.app/api-docs](https://user-management-system-angular-master-production.up.railway.app/api-docs)
-
-## 🌐 Deployment
-
-### Backend Deployment (Railway)
-1. Connect your GitHub repository to Railway
-2. Select the backend directory
-3. Configure environment variables from `.env`
-4. Deploy
-
-### Frontend Deployment (Vercel)
-1. Connect your GitHub repository to Vercel
-2. Select the frontend directory
-3. Configure build settings:
-   - Build Command: `npm run build`
-   - Output Directory: `dist/user-management-system`
-4. Deploy
-
-## 🔑 First Login
-- The system automatically creates an admin account on first launch
-- Subsequent accounts require email verification
-- Email notifications are sent via Gmail SMTP (sender: achives1@gmail.com)
-
-## 🤝 Contributing
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 👥 Team
-- Poland Diosana
-- Franz Adrian Nacar
-
----
 
 <div align="center">
   © 2023 User Management System | MIT License
