@@ -10,10 +10,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cookieParser());
-app.use(cors({
-    origin: true, // allows all origins
-    credentials: true
-}));
+app.use(cors({ origin: (origin, callback) => callback(null, true), credentials: true }));
 
 // routes
 app.use('/accounts', require('./accounts/accounts.controller'));
