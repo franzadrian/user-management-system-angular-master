@@ -1,36 +1,9 @@
-# 🚀 User Management System
+#  User Management System
 
-<div align="center">
-
-A full-stack application for managing user accounts with advanced features and security.
-
-[![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app)
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
-
-</div>
-
-## 📋 Table of Contents
-- [Live Demos](#-live-demos)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Configuration](#-configuration)
-- [Database Access](#-database-access)
-- [API Documentation](#-api-documentation)
-- [Deployment](#-deployment)
-- [Security Notes](#-security-notes)
-- [First Login](#-first-login)
-- [Contributing](#-contributing)
-- [Team](#-team)
 
 ## 🌐 Live Demos
 - **Frontend**: https://user-management-system-angular-master-delta.vercel.app/account/login?returnUrl=%2F
-- **Backend API**: [postgres-production-a08f8.up.railway.app](https://postgres-production-a08f8.up.railway.app/)
+- **Backend API**: [https://postgres-production-a08f8.up.railway.app/](https://user-management-system-angular-master-production-08a9.up.railway.app)
 
 ## ✨ Features
 
