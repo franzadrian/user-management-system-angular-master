@@ -1,4 +1,4 @@
-const { expressjwt } = require('express-jwt');
+const jwt = require('express-jwt');
 const { secret } = require('../config.json');
 const db = require('_helpers/db');
 
@@ -12,7 +12,7 @@ function authorize(roles = []) {
     }
 
     return [
-        expressjwt({ secret, algorithms: ['HS256'] }),
+        jwt({ secret, algorithms: ['HS256'] }),
 
         async (req, res, next) => {
             const account = await db.Account.findByPk(req.user.id);
